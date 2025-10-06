@@ -111,31 +111,31 @@ export function header() {
   divEl.innerHTML = ` <header class="header">
       <nav class="header__nav">
         <div>
-          <img src="../assets/Jessie-logo.png" alt="logo-Jessie" class="logo" />
+          <img src="assets/Jessie-logo.png" alt="logo-Jessie" class="logo" />
         </div>
         <div>
           <img
-            src="../assets/hamburguer-menu.png"
+            src="assets/hamburguer-menu.png"
             alt="menu"
             class="header__nav-menu-icon"
           />
         </div>
         <ul class="header__nav-menu">
-          <li><a href="../portfolio.html">Portfolio</a></li>
-          <li><a href="../servicios.html">Servicios</a></li>
-          <li><a href="../contacto.html">Contacto</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
         </ul>
       </nav>
       <div class="window">
         <img
-          src="../assets/circulo.png"
+          src="assets/circulo.png"
           alt="close-window"
           class="window__close-window"
         />
         <div class="window__content">
-          <a href="../portfolio.html">Portfolio</a>
-          <a href="../servicios.html">Servicios</a>
-          <a href="../contacto.html">Contacto</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="servicios.html">Servicios</a>
+          <a href="contacto.html">Contacto</a>
         </div>
       </div>
     </header>`;
@@ -194,7 +194,7 @@ export function form() {
         <div class="form__button-container">
           <button class="form__button">
             Enviar<img
-              src="../assets/enviar.png"
+              src="assets/enviar.png"
               alt="send"
               class="form__button-send"
             />
@@ -215,48 +215,48 @@ export function footer() {
 
   divEl.innerHTML = `<section class="footer">
       <div>
-        <img src="../assets/Jessie-logo.png" alt="logo" class="footer__logo" />
+        <img src="assets/Jessie-logo.png" alt="logo" class="footer__logo" />
       </div>
       <div class="footer__icons">
         <div>
           <img
-            src="../assets/house-solid-full.svg"
+            src="assets/house-solid-full.svg"
             alt="home"
             class="footer__icon"
           />
-          <span class="footer__icon-title"><a href="../index.html" class="footer__home">Home</a></span>
+          <span class="footer__icon-title"><a href="index.html" class="footer__home">Home</a></span>
         </div>
         <div>
           <img
-            src="../assets/user-solid-full.svg"
+            src="assets/user-solid-full.svg"
             alt="user"
             class="footer__icon"
           />
-          <span class="footer__icon-title"><a href="../servicios.html" class="footer__services">Servicios</a></span>
+          <span class="footer__icon-title"><a href="servicios.html" class="footer__services">Servicios</a></span>
         </div>
         <div>
           <img
-            src="../assets/phone-solid-full.svg"
+            src="assets/phone-solid-full.svg"
             alt="contact"
             class="footer__icon"
           />
-          <span class="footer__icon-title"><a href="../contacto.html" class="footer__contact">Contacto</a></span>
+          <span class="footer__icon-title"><a href="contacto.html" class="footer__contact">Contacto</a></span>
         </div>
       </div>
       <div class="footer__social-networks">
         <div>
           <img
-            src="../assets/linkedin.png"
+            src="assets/linkedin.png"
             alt="linkedin"
             class="footer__icon"
           />
         </div>
         <div>
-          <img src="../assets/github.png" alt="github" class="footer__icon" />
+          <img src="assets/github.png" alt="github" class="footer__icon" />
         </div>
         <div>
           <img
-            src="../assets/instagram.png"
+            src="assets/instagram.png"
             alt="instagram"
             class="footer__icon"
           />
