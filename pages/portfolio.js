@@ -1,4 +1,5 @@
-import { header, footer, spaceId, accessToken } from "./index.js";
+import { header, footer } from "./index.js";
+import { spaceId, accessToken } from "../config.js";
 
 const contentTypePort = "portfolio";
 

@@ -1,8 +1,7 @@
 import { menu } from "../components/header.js";
 import { sendForm } from "../components/form.js";
+import { spaceId, accessToken } from "../config.js";
 
-export const spaceId = "mf6of4zcdbus";
-export const accessToken = "IaYG4iOfkmPJ13OG9kjnf54L5MPRyHuB45SIwuhTBmM";
 const contentType = "bienvenida";
 const contentTypePres = "presentacion";
 const contentTypeSer = "servicios";
@@ -224,7 +223,7 @@ export function footer() {
             alt="home"
             class="footer__icon"
           />
-          <span class="footer__icon-title"><a href="index.html" class="footer__home">Home</a></span>
+          <span class="footer__icon-title"><a href="/" class="footer__home">Home</a></span>
         </div>
         <div>
           <img
