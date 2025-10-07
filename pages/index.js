@@ -224,7 +224,7 @@ export function footer() {
             alt="home"
             class="footer__icon"
           />
-          <span class="footer__icon-title"><a href="/index.html" class="footer__home">Home</a></span>
+          <span class="footer__icon-title"><a href="index.html" class="footer__home">Home</a></span>
         </div>
         <div>
           <img
